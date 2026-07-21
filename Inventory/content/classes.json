@@ -1,0 +1,42 @@
+{
+  "1st-pu": {
+    "id": "1st-pu",
+    "name": "1st PUC",
+    "slug": "1stpuckarnataka",
+    "board": "DPUE",
+    "order": 2,
+    "streams": [
+      "1st-pu-science",
+      "1st-pu-commerce",
+      "1st-pu-languages"
+    ]
+  },
+  "2nd-pu": {
+    "id": "2nd-pu",
+    "name": "2nd PUC",
+    "slug": "2ndpuckarnataka",
+    "board": "DPUE",
+    "order": 3,
+    "streams": [
+      "2nd-pu-science",
+      "2nd-pu-commerce",
+      "2nd-pu-languages"
+    ]
+  },
+  "10th": {
+    "id": "10th",
+    "name": "10th Standard",
+    "slug": "10thkseebresources",
+    "board": "KSEEB",
+    "order": 1,
+    "streams": []
+  },
+  "kcet": {
+    "id": "kcet",
+    "name": "KCET",
+    "slug": "kcet",
+    "board": "KEA",
+    "order": 4,
+    "streams": []
+  }
+}

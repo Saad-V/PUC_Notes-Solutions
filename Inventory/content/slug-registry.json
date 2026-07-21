@@ -1,0 +1,479 @@
+{
+  "1stpuckarnataka": {
+    "type": "class",
+    "entityId": "1st-pu"
+  },
+  "2ndpuckarnataka": {
+    "type": "class",
+    "entityId": "2nd-pu"
+  },
+  "10thkseebresources": {
+    "type": "class",
+    "entityId": "10th"
+  },
+  "kcet": {
+    "type": "class",
+    "entityId": "kcet"
+  },
+  "1st-puc-science-pcmb-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-science"
+  },
+  "1st-puc-science-pcmc-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-science"
+  },
+  "1st-puc-science-pcme-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-science"
+  },
+  "1st-puc-science-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-science"
+  },
+  "1st-puc-commerce-seba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-commerce"
+  },
+  "1st-puc-commerce-heba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-commerce"
+  },
+  "1st-puc-commerce-ceba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-commerce"
+  },
+  "1st-puc-commerce-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-commerce"
+  },
+  "1st-puc-languages-hindi-english-kannada-notes-model-question-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "1st-pu-languages"
+  },
+  "2nd-puc-science-pcmb-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-science"
+  },
+  "2nd-puc-science-pcmc-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-science"
+  },
+  "2nd-puc-science-pcme-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-science"
+  },
+  "2nd-puc-science-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-science"
+  },
+  "2nd-puc-commerce-seba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-commerce"
+  },
+  "2nd-puc-commerce-heba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-commerce"
+  },
+  "2nd-puc-commerce-ceba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-commerce"
+  },
+  "2nd-puc-commerce-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-commerce"
+  },
+  "2nd-puc-languages-hindi-english-kannada-notes-model-question-solved-papers-download-pdf": {
+    "type": "stream",
+    "entityId": "2nd-pu-languages"
+  },
+  "1st-puc-physics": {
+    "type": "subject",
+    "entityId": "1st-pu-physics",
+    "subType": "papers"
+  },
+  "1st-pu-notes-physics": {
+    "type": "subject",
+    "entityId": "1st-pu-physics",
+    "subType": "notes"
+  },
+  "1st-puc-chemistry": {
+    "type": "subject",
+    "entityId": "1st-pu-chemistry",
+    "subType": "papers"
+  },
+  "1st-pu-notes-chemistry": {
+    "type": "subject",
+    "entityId": "1st-pu-chemistry",
+    "subType": "notes"
+  },
+  "1st-puc-mathematics": {
+    "type": "subject",
+    "entityId": "1st-pu-mathematics",
+    "subType": "papers"
+  },
+  "1st-pu-notes-mathematics": {
+    "type": "subject",
+    "entityId": "1st-pu-mathematics",
+    "subType": "notes"
+  },
+  "1st-puc-biology": {
+    "type": "subject",
+    "entityId": "1st-pu-biology",
+    "subType": "papers"
+  },
+  "1st-pu-notes-biology": {
+    "type": "subject",
+    "entityId": "1st-pu-biology",
+    "subType": "notes"
+  },
+  "1st-puc-computer-science": {
+    "type": "subject",
+    "entityId": "1st-pu-computer-science",
+    "subType": "papers"
+  },
+  "1st-pu-notes-computer-science": {
+    "type": "subject",
+    "entityId": "1st-pu-computer-science",
+    "subType": "notes"
+  },
+  "1st-puc-electronics": {
+    "type": "subject",
+    "entityId": "1st-pu-electronics",
+    "subType": "papers"
+  },
+  "1st-pu-notes-electronics": {
+    "type": "subject",
+    "entityId": "1st-pu-electronics",
+    "subType": "notes"
+  },
+  "1st-puc-accountancy-content": {
+    "type": "subject",
+    "entityId": "1st-pu-accountancy",
+    "subType": "papers"
+  },
+  "1st-pu-accountancy-notes": {
+    "type": "subject",
+    "entityId": "1st-pu-accountancy",
+    "subType": "notes"
+  },
+  "1st-puc-business-studies": {
+    "type": "subject",
+    "entityId": "1st-pu-business-studies",
+    "subType": "papers"
+  },
+  "1st-pu-notes-business-studies": {
+    "type": "subject",
+    "entityId": "1st-pu-business-studies",
+    "subType": "notes"
+  },
+  "1st-puc-economic": {
+    "type": "subject",
+    "entityId": "1st-pu-economics",
+    "subType": "papers"
+  },
+  "1st-pu-notes-economics": {
+    "type": "subject",
+    "entityId": "1st-pu-economics",
+    "subType": "notes"
+  },
+  "1st-puc-history": {
+    "type": "subject",
+    "entityId": "1st-pu-history",
+    "subType": "papers"
+  },
+  "1st-pu-notes-history": {
+    "type": "subject",
+    "entityId": "1st-pu-history",
+    "subType": "notes"
+  },
+  "1st-puc-english": {
+    "type": "subject",
+    "entityId": "1st-pu-english",
+    "subType": "papers"
+  },
+  "1st-pu-notes-english": {
+    "type": "subject",
+    "entityId": "1st-pu-english",
+    "subType": "notes"
+  },
+  "1st-puc-hindi": {
+    "type": "subject",
+    "entityId": "1st-pu-hindi",
+    "subType": "papers"
+  },
+  "1st-pu-notes-hindi": {
+    "type": "subject",
+    "entityId": "1st-pu-hindi",
+    "subType": "notes"
+  },
+  "1st-puc-kannada": {
+    "type": "subject",
+    "entityId": "1st-pu-kannada",
+    "subType": "papers"
+  },
+  "1st-pu-notes-kannada": {
+    "type": "subject",
+    "entityId": "1st-pu-kannada",
+    "subType": "notes"
+  },
+  "1st-puc-statistics": {
+    "type": "subject",
+    "entityId": "1st-pu-statistics",
+    "subType": "papers"
+  },
+  "1st-pu-notes-statistics": {
+    "type": "subject",
+    "entityId": "1st-pu-statistics",
+    "subType": "notes"
+  },
+  "2nd-puc-physics": {
+    "type": "subject",
+    "entityId": "2nd-pu-physics",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-physics": {
+    "type": "subject",
+    "entityId": "2nd-pu-physics",
+    "subType": "notes"
+  },
+  "2nd-puc-chemistry": {
+    "type": "subject",
+    "entityId": "2nd-pu-chemistry",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-chemistry": {
+    "type": "subject",
+    "entityId": "2nd-pu-chemistry",
+    "subType": "notes"
+  },
+  "2nd-puc-mathematics": {
+    "type": "subject",
+    "entityId": "2nd-pu-mathematics",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-mathematics": {
+    "type": "subject",
+    "entityId": "2nd-pu-mathematics",
+    "subType": "notes"
+  },
+  "2nd-puc-biology": {
+    "type": "subject",
+    "entityId": "2nd-pu-biology",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-biology": {
+    "type": "subject",
+    "entityId": "2nd-pu-biology",
+    "subType": "notes"
+  },
+  "2nd-puc-computer-science": {
+    "type": "subject",
+    "entityId": "2nd-pu-computer-science",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-computer-science": {
+    "type": "subject",
+    "entityId": "2nd-pu-computer-science",
+    "subType": "notes"
+  },
+  "2nd-puc-electronics": {
+    "type": "subject",
+    "entityId": "2nd-pu-electronics",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-electronics": {
+    "type": "subject",
+    "entityId": "2nd-pu-electronics",
+    "subType": "notes"
+  },
+  "2nd-puc-accountancy": {
+    "type": "subject",
+    "entityId": "2nd-pu-accountancy",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-accountancy": {
+    "type": "subject",
+    "entityId": "2nd-pu-accountancy",
+    "subType": "notes"
+  },
+  "2nd-puc-business-studies": {
+    "type": "subject",
+    "entityId": "2nd-pu-business-studies",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-business-studies": {
+    "type": "subject",
+    "entityId": "2nd-pu-business-studies",
+    "subType": "notes"
+  },
+  "2nd-puc-economics": {
+    "type": "subject",
+    "entityId": "2nd-pu-economics",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-economics": {
+    "type": "subject",
+    "entityId": "2nd-pu-economics",
+    "subType": "notes"
+  },
+  "2nd-puc-history": {
+    "type": "subject",
+    "entityId": "2nd-pu-history",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-history": {
+    "type": "subject",
+    "entityId": "2nd-pu-history",
+    "subType": "notes"
+  },
+  "2nd-puc-english": {
+    "type": "subject",
+    "entityId": "2nd-pu-english",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-english": {
+    "type": "subject",
+    "entityId": "2nd-pu-english",
+    "subType": "notes"
+  },
+  "2nd-puc-hindi": {
+    "type": "subject",
+    "entityId": "2nd-pu-hindi",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-hindi": {
+    "type": "subject",
+    "entityId": "2nd-pu-hindi",
+    "subType": "notes"
+  },
+  "2nd-puc-kannada": {
+    "type": "subject",
+    "entityId": "2nd-pu-kannada",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-kannada": {
+    "type": "subject",
+    "entityId": "2nd-pu-kannada",
+    "subType": "notes"
+  },
+  "2nd-puc-statistics": {
+    "type": "subject",
+    "entityId": "2nd-pu-statistics",
+    "subType": "papers"
+  },
+  "2nd-pu-notes-statistics": {
+    "type": "subject",
+    "entityId": "2nd-pu-statistics",
+    "subType": "notes"
+  },
+  "question-bank": {
+    "type": "resource-aggregate",
+    "resourceType": "question_bank"
+  },
+  "model-papers": {
+    "type": "resource-aggregate",
+    "resourceType": "model_paper"
+  },
+  "previous-year-papers": {
+    "type": "resource-aggregate",
+    "resourceType": "previous_year_paper"
+  },
+  "revision-notes": {
+    "type": "resource-aggregate",
+    "resourceType": "revision_notes"
+  },
+  "solved-papers": {
+    "type": "resource-aggregate",
+    "resourceType": "solved_paper"
+  },
+  "mid-term-papers": {
+    "type": "resource-aggregate",
+    "resourceType": "mid_term_paper"
+  },
+  "exclusive-short-notes": {
+    "type": "resource-aggregate",
+    "resourceType": "short_notes"
+  },
+  "ncert-textbook-solutions": {
+    "type": "resource-aggregate",
+    "resourceType": "ncert_solutions"
+  },
+  "textbooksdownload": {
+    "type": "resource-aggregate",
+    "resourceType": "textbook"
+  },
+  "1stpuctextbookdownload": {
+    "type": "resource-aggregate",
+    "resourceType": "textbook",
+    "classId": "1st-pu"
+  },
+  "2ndpuctextbookdownload": {
+    "type": "resource-aggregate",
+    "resourceType": "textbook",
+    "classId": "2nd-pu"
+  },
+  "10th-textbookspdfdownload": {
+    "type": "resource-aggregate",
+    "resourceType": "textbook",
+    "classId": "10th"
+  },
+  "kcet-pattern": {
+    "type": "kcet-subpage",
+    "entityId": "kcet",
+    "subType": "info"
+  },
+  "kcet-cutoffs": {
+    "type": "kcet-subpage",
+    "entityId": "kcet",
+    "subType": "info"
+  },
+  "kcet-latest-news": {
+    "type": "kcet-subpage",
+    "entityId": "kcet",
+    "subType": "info"
+  },
+  "kcet-mock-papers": {
+    "type": "kcet-subpage",
+    "entityId": "kcet",
+    "subType": "resource"
+  },
+  "kcet-question-bank": {
+    "type": "kcet-subpage",
+    "entityId": "kcet",
+    "subType": "resource"
+  },
+  "kcet-question-papers": {
+    "type": "kcet-subpage",
+    "entityId": "kcet",
+    "subType": "resource"
+  },
+  "kcet-revision-notes": {
+    "type": "kcet-subpage",
+    "entityId": "kcet",
+    "subType": "resource"
+  },
+  "kcet-solved-papers": {
+    "type": "kcet-subpage",
+    "entityId": "kcet",
+    "subType": "resource"
+  },
+  "about": {
+    "type": "static"
+  },
+  "contact": {
+    "type": "static"
+  },
+  "privacy-policy": {
+    "type": "static"
+  },
+  "terms-conditions": {
+    "type": "static"
+  },
+  "content-updates": {
+    "type": "static"
+  },
+  "menu": {
+    "type": "static"
+  }
+}

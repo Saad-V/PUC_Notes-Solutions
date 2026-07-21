@@ -1,0 +1,226 @@
+{
+  "1st-pu-physics": {
+    "id": "1st-pu-physics",
+    "name": "Physics",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-science",
+    "paperSlug": "1st-puc-physics",
+    "notesSlug": "1st-pu-notes-physics"
+  },
+  "1st-pu-chemistry": {
+    "id": "1st-pu-chemistry",
+    "name": "Chemistry",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-science",
+    "paperSlug": "1st-puc-chemistry",
+    "notesSlug": "1st-pu-notes-chemistry"
+  },
+  "1st-pu-mathematics": {
+    "id": "1st-pu-mathematics",
+    "name": "Mathematics",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-science",
+    "paperSlug": "1st-puc-mathematics",
+    "notesSlug": "1st-pu-notes-mathematics"
+  },
+  "1st-pu-biology": {
+    "id": "1st-pu-biology",
+    "name": "Biology",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-science",
+    "paperSlug": "1st-puc-biology",
+    "notesSlug": "1st-pu-notes-biology"
+  },
+  "1st-pu-computer-science": {
+    "id": "1st-pu-computer-science",
+    "name": "Computer Science",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-science",
+    "paperSlug": "1st-puc-computer-science",
+    "notesSlug": "1st-pu-notes-computer-science"
+  },
+  "1st-pu-electronics": {
+    "id": "1st-pu-electronics",
+    "name": "Electronics",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-science",
+    "paperSlug": "1st-puc-electronics",
+    "notesSlug": "1st-pu-notes-electronics"
+  },
+  "1st-pu-accountancy": {
+    "id": "1st-pu-accountancy",
+    "name": "Accountancy",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-commerce",
+    "paperSlug": "1st-puc-accountancy-content",
+    "notesSlug": "1st-pu-accountancy-notes"
+  },
+  "1st-pu-business-studies": {
+    "id": "1st-pu-business-studies",
+    "name": "Business Studies",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-commerce",
+    "paperSlug": "1st-puc-business-studies",
+    "notesSlug": "1st-pu-notes-business-studies"
+  },
+  "1st-pu-economics": {
+    "id": "1st-pu-economics",
+    "name": "Economics",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-commerce",
+    "paperSlug": "1st-puc-economic",
+    "notesSlug": "1st-pu-notes-economics"
+  },
+  "1st-pu-history": {
+    "id": "1st-pu-history",
+    "name": "History",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-commerce",
+    "paperSlug": "1st-puc-history",
+    "notesSlug": "1st-pu-notes-history"
+  },
+  "1st-pu-english": {
+    "id": "1st-pu-english",
+    "name": "English",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-languages",
+    "paperSlug": "1st-puc-english",
+    "notesSlug": "1st-pu-notes-english"
+  },
+  "1st-pu-hindi": {
+    "id": "1st-pu-hindi",
+    "name": "Hindi",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-languages",
+    "paperSlug": "1st-puc-hindi",
+    "notesSlug": "1st-pu-notes-hindi"
+  },
+  "1st-pu-kannada": {
+    "id": "1st-pu-kannada",
+    "name": "Kannada",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-languages",
+    "paperSlug": "1st-puc-kannada",
+    "notesSlug": "1st-pu-notes-kannada"
+  },
+  "1st-pu-statistics": {
+    "id": "1st-pu-statistics",
+    "name": "Statistics",
+    "classId": "1st-pu",
+    "streamId": "1st-pu-science",
+    "paperSlug": "1st-puc-statistics",
+    "notesSlug": "1st-pu-notes-statistics"
+  },
+  "2nd-pu-physics": {
+    "id": "2nd-pu-physics",
+    "name": "Physics",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-science",
+    "paperSlug": "2nd-puc-physics",
+    "notesSlug": "2nd-pu-notes-physics"
+  },
+  "2nd-pu-chemistry": {
+    "id": "2nd-pu-chemistry",
+    "name": "Chemistry",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-science",
+    "paperSlug": "2nd-puc-chemistry",
+    "notesSlug": "2nd-pu-notes-chemistry"
+  },
+  "2nd-pu-mathematics": {
+    "id": "2nd-pu-mathematics",
+    "name": "Mathematics",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-science",
+    "paperSlug": "2nd-puc-mathematics",
+    "notesSlug": "2nd-pu-notes-mathematics"
+  },
+  "2nd-pu-biology": {
+    "id": "2nd-pu-biology",
+    "name": "Biology",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-science",
+    "paperSlug": "2nd-puc-biology",
+    "notesSlug": "2nd-pu-notes-biology"
+  },
+  "2nd-pu-computer-science": {
+    "id": "2nd-pu-computer-science",
+    "name": "Computer Science",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-science",
+    "paperSlug": "2nd-puc-computer-science",
+    "notesSlug": "2nd-pu-notes-computer-science"
+  },
+  "2nd-pu-electronics": {
+    "id": "2nd-pu-electronics",
+    "name": "Electronics",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-science",
+    "paperSlug": "2nd-puc-electronics",
+    "notesSlug": "2nd-pu-notes-electronics"
+  },
+  "2nd-pu-accountancy": {
+    "id": "2nd-pu-accountancy",
+    "name": "Accountancy",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-commerce",
+    "paperSlug": "2nd-puc-accountancy",
+    "notesSlug": "2nd-pu-notes-accountancy"
+  },
+  "2nd-pu-business-studies": {
+    "id": "2nd-pu-business-studies",
+    "name": "Business Studies",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-commerce",
+    "paperSlug": "2nd-puc-business-studies",
+    "notesSlug": "2nd-pu-notes-business-studies"
+  },
+  "2nd-pu-economics": {
+    "id": "2nd-pu-economics",
+    "name": "Economics",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-commerce",
+    "paperSlug": "2nd-puc-economics",
+    "notesSlug": "2nd-pu-notes-economics"
+  },
+  "2nd-pu-history": {
+    "id": "2nd-pu-history",
+    "name": "History",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-commerce",
+    "paperSlug": "2nd-puc-history",
+    "notesSlug": "2nd-pu-notes-history"
+  },
+  "2nd-pu-english": {
+    "id": "2nd-pu-english",
+    "name": "English",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-languages",
+    "paperSlug": "2nd-puc-english",
+    "notesSlug": "2nd-pu-notes-english"
+  },
+  "2nd-pu-hindi": {
+    "id": "2nd-pu-hindi",
+    "name": "Hindi",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-languages",
+    "paperSlug": "2nd-puc-hindi",
+    "notesSlug": "2nd-pu-notes-hindi"
+  },
+  "2nd-pu-kannada": {
+    "id": "2nd-pu-kannada",
+    "name": "Kannada",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-languages",
+    "paperSlug": "2nd-puc-kannada",
+    "notesSlug": "2nd-pu-notes-kannada"
+  },
+  "2nd-pu-statistics": {
+    "id": "2nd-pu-statistics",
+    "name": "Statistics",
+    "classId": "2nd-pu",
+    "streamId": "2nd-pu-science",
+    "paperSlug": "2nd-puc-statistics",
+    "notesSlug": "2nd-pu-notes-statistics"
+  }
+}

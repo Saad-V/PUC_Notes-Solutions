@@ -1,0 +1,104 @@
+{
+  "1st-pu-science": {
+    "id": "1st-pu-science",
+    "classId": "1st-pu",
+    "name": "Science",
+    "slugs": [
+      "1st-puc-science-pcmb-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "1st-puc-science-pcmc-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "1st-puc-science-pcme-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "1st-puc-science-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf"
+    ],
+    "subjects": [
+      "1st-pu-physics",
+      "1st-pu-chemistry",
+      "1st-pu-mathematics",
+      "1st-pu-biology",
+      "1st-pu-computer-science",
+      "1st-pu-electronics",
+      "1st-pu-statistics"
+    ]
+  },
+  "1st-pu-commerce": {
+    "id": "1st-pu-commerce",
+    "classId": "1st-pu",
+    "name": "Commerce",
+    "slugs": [
+      "1st-puc-commerce-seba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "1st-puc-commerce-heba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "1st-puc-commerce-ceba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "1st-puc-commerce-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf"
+    ],
+    "subjects": [
+      "1st-pu-accountancy",
+      "1st-pu-business-studies",
+      "1st-pu-economics",
+      "1st-pu-history",
+      "1st-pu-statistics"
+    ]
+  },
+  "1st-pu-languages": {
+    "id": "1st-pu-languages",
+    "classId": "1st-pu",
+    "name": "Languages",
+    "slugs": [
+      "1st-puc-languages-hindi-english-kannada-notes-model-question-solved-papers-download-pdf"
+    ],
+    "subjects": [
+      "1st-pu-english",
+      "1st-pu-hindi",
+      "1st-pu-kannada"
+    ]
+  },
+  "2nd-pu-science": {
+    "id": "2nd-pu-science",
+    "classId": "2nd-pu",
+    "name": "Science",
+    "slugs": [
+      "2nd-puc-science-pcmb-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "2nd-puc-science-pcmc-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "2nd-puc-science-pcme-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "2nd-puc-science-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf"
+    ],
+    "subjects": [
+      "2nd-pu-physics",
+      "2nd-pu-chemistry",
+      "2nd-pu-mathematics",
+      "2nd-pu-biology",
+      "2nd-pu-computer-science",
+      "2nd-pu-electronics",
+      "2nd-pu-statistics"
+    ]
+  },
+  "2nd-pu-commerce": {
+    "id": "2nd-pu-commerce",
+    "classId": "2nd-pu",
+    "name": "Commerce",
+    "slugs": [
+      "2nd-puc-commerce-seba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "2nd-puc-commerce-heba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "2nd-puc-commerce-ceba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf",
+      "2nd-puc-commerce-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf"
+    ],
+    "subjects": [
+      "2nd-pu-accountancy",
+      "2nd-pu-business-studies",
+      "2nd-pu-economics",
+      "2nd-pu-history",
+      "2nd-pu-statistics"
+    ]
+  },
+  "2nd-pu-languages": {
+    "id": "2nd-pu-languages",
+    "classId": "2nd-pu",
+    "name": "Languages",
+    "slugs": [
+      "2nd-puc-languages-hindi-english-kannada-notes-model-question-solved-papers-download-pdf"
+    ],
+    "subjects": [
+      "2nd-pu-english",
+      "2nd-pu-hindi",
+      "2nd-pu-kannada"
+    ]
+  }
+}
