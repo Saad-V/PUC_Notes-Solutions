@@ -1,3 +1,4 @@
+import React from "react";
 import {
   BookOpen,
   FileText,
@@ -39,4 +40,12 @@ export const ICON_MAP: Record<string, LucideIcon> = {
  */
 export function getIcon(iconName: string): LucideIcon {
   return ICON_MAP[iconName] ?? FileText;
+}
+
+/**
+ * Render a Lucide icon by name using React.createElement safely inside JSX.
+ */
+export function renderIcon(iconName: string, className?: string) {
+  const IconComponent = getIcon(iconName);
+  return React.createElement(IconComponent, { className });
 }

@@ -2,6 +2,8 @@ import { PageHeader } from "@/components/page-header";
 import { ResourceCategoryCard } from "@/components/resource-category-card";
 import { SubjectCard } from "@/components/subject-card";
 import { SectionGrid } from "@/components/section-grid";
+import { ComingSoon } from "@/components/coming-soon";
+import { AdBanner } from "@/components/ads/ad-banner";
 import {
   getMetadata, buildBreadcrumbs,
   getSubjectsByStream, getResourceCategoriesForSubject,
@@ -29,10 +31,13 @@ export function SubjectPage({ subjectData, slug }: SubjectPageProps) {
   return (
     <div className="container mx-auto px-4 py-8">
       <PageHeader
-        title={meta?.title || `${subjectData.name}`}
+        title={meta?.displayTitle || meta?.title || `${subjectData.name}`}
         description={meta?.description || `Browse all ${subjectData.name} study resources — notes, model papers, question banks, and more.`}
         breadcrumbs={breadcrumbs}
       />
+
+      {/* In-Feed Banner Ad */}
+      <AdBanner slot="4433221100" format="horizontal" className="my-4" />
 
       {/* Resource Dashboard */}
       {categories.length > 0 ? (
@@ -56,12 +61,14 @@ export function SubjectPage({ subjectData, slug }: SubjectPageProps) {
           </div>
         </section>
       ) : (
-        <div className="text-center py-12 text-muted-foreground">
-          <p>No resources currently available for this subject.</p>
-          <p className="text-sm mt-2">
-            This page exists in the site index. Resources will be added soon.
-          </p>
-        </div>
+        <ComingSoon
+          title={`${subjectData.name} Resources`}
+          description={`Verified study notes, blueprints, solved papers, and textbook solutions for ${subjectData.name} are currently being compiled.`}
+          category="Subject Resources"
+          estimatedLaunch="Upcoming Update"
+          progress={80}
+          backLink={{ href: "/", label: "Back to Home" }}
+        />
       )}
 
       {/* Related Subjects */}

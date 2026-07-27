@@ -59,6 +59,7 @@ export interface SlugEntry {
 export interface SeoMetadata {
   title: string;
   description: string;
+  displayTitle?: string;
 }
 
 export type SlugRegistry = Record<string, SlugEntry>;

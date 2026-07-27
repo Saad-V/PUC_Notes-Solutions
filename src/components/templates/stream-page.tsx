@@ -2,7 +2,7 @@ import { PageHeader } from "@/components/page-header";
 import { SubjectCard } from "@/components/subject-card";
 import { SectionGrid } from "@/components/section-grid";
 import {
-  getStream, getSubject, getResources,
+  getSubject, getResources,
   getMetadata, buildBreadcrumbs,
 } from "@/lib/data";
 import type { StreamData } from "@/lib/types";
@@ -29,7 +29,7 @@ export function StreamPage({ streamData, slug }: StreamPageProps) {
   return (
     <div className="container mx-auto px-4 py-8">
       <PageHeader
-        title={meta?.title || `${streamData.name} Stream`}
+        title={meta?.displayTitle || meta?.title || `${streamData.name} Stream`}
         description={meta?.description}
         breadcrumbs={breadcrumbs}
       />

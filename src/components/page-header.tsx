@@ -1,10 +1,8 @@
 import type { BreadcrumbItem } from "@/lib/data";
-import type { SeoMetadata } from "@/lib/types";
 import Link from "next/link";
 import {
   Breadcrumb,
   BreadcrumbItem as BreadcrumbUIItem,
-  BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,

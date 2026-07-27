@@ -3,7 +3,7 @@ import { StreamCard } from "@/components/stream-card";
 import { SubjectCard } from "@/components/subject-card";
 import { SectionGrid } from "@/components/section-grid";
 import {
-  getClass, getStreamsByClass, getSubjectsByClass,
+  getStreamsByClass, getSubjectsByClass,
   getMetadata, getResources, buildBreadcrumbs,
 } from "@/lib/data";
 import type { ClassData } from "@/lib/types";
@@ -22,7 +22,7 @@ export function ClassPage({ classData, slug }: ClassPageProps) {
   return (
     <div className="container mx-auto px-4 py-8">
       <PageHeader
-        title={meta?.title || `${classData.name} Resources`}
+        title={meta?.displayTitle || meta?.title || `${classData.name} Resources`}
         description={meta?.description}
         breadcrumbs={breadcrumbs}
       />

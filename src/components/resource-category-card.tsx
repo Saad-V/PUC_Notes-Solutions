@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { ChevronRight } from "lucide-react";
-import { getIcon } from "@/components/icon-map";
+import { renderIcon } from "@/components/icon-map";
 import type { ResourceCategory } from "@/lib/types";
 
 interface ResourceCategoryCardProps {
@@ -11,14 +11,12 @@ interface ResourceCategoryCardProps {
 }
 
 export function ResourceCategoryCard({ category, parentSlug }: ResourceCategoryCardProps) {
-  const Icon = getIcon(category.icon);
-
   return (
     <Link href={`/${parentSlug}/${category.slug}`} className="group block">
       <Card className="h-full hover:border-primary/50 hover:shadow-md transition-all duration-200 cursor-pointer">
         <CardHeader className="flex flex-row items-center gap-4 py-6">
           <div className="rounded-lg bg-primary/10 p-3 shrink-0 group-hover:bg-primary/20 transition-colors">
-            <Icon className="h-6 w-6 text-primary" />
+            {renderIcon(category.icon, "h-6 w-6 text-primary")}
           </div>
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-1">

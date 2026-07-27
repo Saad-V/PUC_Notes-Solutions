@@ -1,8 +1,8 @@
 import { PageHeader } from "@/components/page-header";
 import { ResourceCard } from "@/components/resource-card";
-import { SectionGrid } from "@/components/section-grid";
+import { ComingSoon } from "@/components/coming-soon";
 import {
-  getResourcesByType, getMetadata, buildBreadcrumbs, getSubjects,
+  getResourcesByType, getMetadata, buildBreadcrumbs,
 } from "@/lib/data";
 import type { ResourceData } from "@/lib/types";
 
@@ -12,11 +12,10 @@ interface ResourceAggregatePageProps {
   classId?: string;
 }
 
-export function ResourceAggregatePage({ slug, resourceType, classId }: ResourceAggregatePageProps) {
+export function ResourceAggregatePage({ slug, resourceType }: ResourceAggregatePageProps) {
   const meta = getMetadata(slug);
   const breadcrumbs = buildBreadcrumbs(slug);
   const allResources = getResourcesByType(resourceType);
-  const subjects = getSubjects();
 
   // Group resources by subject
   const bySubject = allResources.reduce((acc, r) => {
@@ -27,11 +26,12 @@ export function ResourceAggregatePage({ slug, resourceType, classId }: ResourceA
   }, {} as Record<string, ResourceData[]>);
 
   const sortedSubjects = Object.keys(bySubject).sort();
+  const title = meta?.displayTitle || meta?.title || slug.replace(/-/g, ' ');
 
   return (
     <div className="container mx-auto px-4 py-8">
       <PageHeader
-        title={meta?.title || slug.replace(/-/g, ' ')}
+        title={title}
         description={meta?.description}
         breadcrumbs={breadcrumbs}
       />
@@ -52,10 +52,16 @@ export function ResourceAggregatePage({ slug, resourceType, classId }: ResourceA
           ))}
         </div>
       ) : (
-        <div className="text-center py-12 text-muted-foreground">
-          <p>No resources currently available in this category.</p>
-        </div>
+        <ComingSoon
+          title={title}
+          description={meta?.description || `Aggregate collection for ${title} is currently under compilation.`}
+          category="Resource Collection"
+          estimatedLaunch="Coming Soon"
+          progress={70}
+          backLink={{ href: "/", label: "Back to Home" }}
+        />
       )}
     </div>
   );
 }
+

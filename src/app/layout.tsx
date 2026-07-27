@@ -4,6 +4,8 @@ import "./globals.css";
 
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { GoogleAutoAds } from "@/components/ads/google-auto-ads";
+import { StickyBottomAd } from "@/components/ads/sticky-bottom-ad";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,14 +30,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col pb-16 md:pb-20`}
       >
+        <GoogleAutoAds />
         <Header />
         <main className="flex-1">
           {children}
         </main>
         <Footer />
+        <StickyBottomAd />
       </body>
     </html>
   );
 }
+

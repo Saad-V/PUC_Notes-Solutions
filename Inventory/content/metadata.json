@@ -1,418 +1,522 @@
 {
   "menu": {
-    "title": "MENU | Notes and textbooks of KSEEB 10th and DPUE 1st & 2nd PUC",
-    "description": "Visit this page to navigate through pages and get notes,textbooks,question papers,solutions for class 10 of KSEEB and 1st PUC & 2nd PUC of DPUE karnataka"
+    "title": "All Resources — KSEEB 10th & DPUE 1st & 2nd PUC | PUC Notes",
+    "description": "Navigate through all available study materials for Karnataka 10th standard, 1st PUC and 2nd PUC — notes, textbooks, question papers and more.",
+    "displayTitle": "Browse All Resources"
   },
   "1st-puc-statistics": {
-    "title": "Karnataka 1st PUC Statistics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Statistics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Statistics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Statistics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Statistics"
   },
   "1st-pu-notes-economics": {
-    "title": "Karnataka 1st PUC Economics notes chapter-wise pdf download",
-    "description": "1st PUC Economics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Economics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Economics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Economics — Chapter Notes"
   },
   "1st-puc-physics": {
-    "title": "Karnataka 1st PUC Physics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Physics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Physics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Physics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Physics"
   },
   "1stpuctextbookdownload": {
-    "title": "Karnataka 1st PUC textbook pdf download|Science & Commerce textbooks pdf",
-    "description": "Download textbooks for all the subjects of both science & Commerce streams of 1st PUC karnataka board, based on DPUE and NCERT schemes as direct pdf. Physics textbook, chemistry textbook,maths textbook,computer science textbook,biology textbook,electronics textbook,statistics textbook,history textbook,accountancy textbook,economics textbook,hindi textbook,english textbook,kannada textbook free pdf download."
+    "title": "1st PUC Textbooks — Science & Commerce PDF Download | PUC Notes",
+    "description": "Download textbooks for all 1st PUC subjects — Science and Commerce streams, based on DPUE and NCERT syllabus.",
+    "displayTitle": "1st PUC Textbooks"
   },
   "previous-year-papers": {
-    "title": "karnataka 1st PUC & 2nd PUC previous year Papers | KSEEB 10th SSLC previous year papers download",
-    "description": "Download previous year papers for all the subjects of 10th standard and for both science & Commerce streams of 1st&2nd PUC karnataka board, based on DPUE and NCERT schemes as direct pdf to score well in exams . Physics , chemistry ,maths ,computer science ,biology,electronics ,statistics ,history ,accountancy ,economics ,hindi ,english ,kannada previous year papers free pdf download."
+    "title": "Previous Year Papers — 10th, 1st PUC & 2nd PUC | PUC Notes",
+    "description": "Download previous year papers for Karnataka 10th standard, 1st PUC and 2nd PUC — all subjects, Science and Commerce streams.",
+    "displayTitle": "Previous Year Papers"
   },
   "ncert-textbook-solutions": {
-    "title": "NCERT TextBook Solutions | 1st & 2nd PUC chapter-wise NCERT Solutions",
-    "description": "Download the chapter-wise solutions for NCERT textbook problems for physics,chemistry and mathematics textbook problems."
+    "title": "NCERT Textbook Solutions — 1st PUC & 2nd PUC Chapter-wise | PUC Notes",
+    "description": "Download chapter-wise solutions for NCERT textbook problems — Physics, Chemistry and Mathematics.",
+    "displayTitle": "NCERT Textbook Solutions"
   },
   "kcet-pattern": {
-    "title": "KCET Examination Pattern | Physics , Chemistry , Mathematics & Biology",
-    "description": "Examination pattern of the KCET exam along with Trend analysis of previous year papers is provided in the page to help[ students understand and prepare themselves accordingly for the KCET exam . Pattern is available for download as pdf"
+    "title": "KCET Exam Pattern & Trend Analysis | PUC Notes",
+    "description": "Understand the KCET examination pattern along with trend analysis of previous year papers — Physics, Chemistry, Mathematics and Biology.",
+    "displayTitle": "KCET Exam Pattern"
   },
   "1st-puc-mathematics": {
-    "title": "Karnataka 1st PUC Mathematics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Mathematics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Mathematics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Mathematics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Mathematics"
   },
   "2nd-puc-computer-science": {
-    "title": "Karnataka 2nd PUC Computer Science Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Computer Science-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Computer Science — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Computer Science model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Computer Science"
   },
   "1st-puc-commerce-seba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU SEBA notes  | qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC SEBA-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC SEBA course having Statistics,Economics,Business studies and accountancy subjects according to DPUE karnataka available for pdf download"
+    "title": "1st PUC SEBA — Statistics, Economics, Business Studies & Accountancy | PUC Notes",
+    "description": "Study materials for 1st PUC SEBA combination — Statistics, Economics, Business Studies and Accountancy resources for Karnataka DPUE.",
+    "displayTitle": "1st PUC — SEBA"
   },
   "1st-puc-science-pcmb-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU PCMB notes  | qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC PCMB-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC PCMB course having Physics,Chemistry,Mathematics and Biology subjects according to NCERT and DPUE karnataka available for pdf download"
+    "title": "1st PUC PCMB — Physics, Chemistry, Maths & Biology | PUC Notes",
+    "description": "Study materials for 1st PUC PCMB combination — Physics, Chemistry, Mathematics and Biology resources for Karnataka DPUE.",
+    "displayTitle": "1st PUC — PCMB"
   },
   "2nd-pu-notes-computer-science": {
-    "title": "Karnataka 2nd PUC Computer Science notes chapter-wise pdf download",
-    "description": "2nd PUC Computer Science chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Computer Science Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Computer Science notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Computer Science — Chapter Notes"
   },
   "1st-pu-notes-kannada": {
-    "title": "1st PUC Kannada notes, kannada notes 1st puc,kannada 1st puc chapter-wise pdf download 1st puc,1st puc kannada  textbook answers,kannada notes 1st puc 2022",
-    "description": "1st PUC Kannada chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Kannada Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Kannada notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Kannada — Chapter Notes"
   },
   "/": {
-    "title": "10th, Karnataka 1st & 2nd PUC notes| resources pdf download PUCnotes&solutions",
-    "description": "Right place for all your 1st&2nd PUC needs of DPUE karnataka and 10th standard of KSEEB , download pdf or view and learn with simple button user interface brought to you by PUCnotes&solutions. Get karnataka PUC notes, textbooks,solved & previous year papers etc on this website along with KCET papers"
+    "title": "PUC Notes & Solutions — Karnataka 10th, 1st & 2nd PUC Study Resources",
+    "description": "Free study resources for Karnataka state board students — download notes, textbooks, model papers, solved papers and question banks for KSEEB 10th, DPUE 1st PUC and 2nd PUC.",
+    "displayTitle": "PUC Notes & Solutions"
   },
   "2nd-pu-notes-english": {
-    "title": "Karnataka 2nd PUC English notes chapter-wise pdf download,2nd puc english notes",
-    "description": "2nd PUC English chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus,2nd puc english notes,english notes 2nd puc."
+    "title": "2nd PUC English Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC English notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC English — Chapter Notes"
   },
   "2nd-puc-kannada": {
-    "title": "Karnataka 2nd PUC Kannada Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Kannada-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Kannada — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Kannada model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Kannada"
   },
   "2nd-puc-science-pcmb-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU PCMB notes  | qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC PCMB-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC PCMB course having Physics,Chemistry,Mathematics and Biology subjects according to NCERT and DPUE karnataka available for pdf download"
+    "title": "2nd PUC PCMB — Physics, Chemistry, Maths & Biology | PUC Notes",
+    "description": "Study materials for 2nd PUC PCMB combination — Physics, Chemistry, Mathematics and Biology resources for Karnataka DPUE.",
+    "displayTitle": "2nd PUC — PCMB"
   },
   "2nd-pu-notes-mathematics": {
-    "title": "Karnataka 2nd PUC Mathematics notes chapter-wise pdf download",
-    "description": "2nd PUC Mathematics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Mathematics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Mathematics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Mathematics — Chapter Notes"
   },
   "2nd-pu-notes-history": {
-    "title": "Karnataka 2nd PUC History notes chapter-wise pdf download",
-    "description": "2nd PUC History chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC History Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC History notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC History — Chapter Notes"
   },
   "1st-puc-chemistry": {
-    "title": "Karnataka 1st PUC Chemistry Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Chemistry-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Chemistry — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Chemistry model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Chemistry"
   },
   "1st-pu-notes-business-studies": {
-    "title": "Karnataka 1st PUC Business Studies notes chapter-wise pdf download",
-    "description": "1st PUC Business studies chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Business Studies Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Business Studies notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Business Studies — Chapter Notes"
   },
   "2nd-puc-english": {
-    "title": "Karnataka 2nd PUC English Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC English-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC English — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC English model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC English"
   },
   "contact": {
-    "title": "Contact | Pucnotes Solutions",
-    "description": "Feel free to contact us and write to us if you find anything wrong."
+    "title": "Contact Us | PUC Notes & Solutions",
+    "description": "Have a question or found an error? Get in touch with the PUC Notes & Solutions team.",
+    "displayTitle": "Contact Us"
   },
   "about": {
-    "title": "About | Pucnotes&Solutions",
-    "description": "A little introduction about us and the cause for making this site."
+    "title": "About | PUC Notes & Solutions",
+    "description": "Learn about PUC Notes & Solutions — our mission to provide free, high-quality study resources for Karnataka state board students.",
+    "displayTitle": "About Us"
   },
   "10thkseebresources": {
-    "title": "10th | 10th KSEEB Textbooks , Model papers pdf download-PUCnotes&solutions",
-    "description": "KSEEB 10th Download textbooks,model papers,solved papers and previous year papers of 10th standard KSEEB karnataka state board"
+    "title": "KSEEB 10th Standard — Textbooks, Model Papers & Resources | PUC Notes",
+    "description": "Download textbooks, model papers, solved papers and previous year papers for Karnataka 10th standard (SSLC) KSEEB board.",
+    "displayTitle": "10th Standard — KSEEB Resources"
   },
   "1st-pu-notes-mathematics": {
-    "title": "Karnataka 1st PUC Mathematics notes chapter-wise pdf download",
-    "description": "1st PUC Mathematics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Mathematics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Mathematics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Mathematics — Chapter Notes"
   },
   "2nd-puc-commerce-seba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU SEBA notes  | qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC SEBA-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 2nd PUC SEBA course having Statistics,Economics,Business studies and accountancy subjects according to DPUE karnataka available for pdf download"
+    "title": "2nd PUC SEBA — Statistics, Economics, Business Studies & Accountancy | PUC Notes",
+    "description": "Study materials for 2nd PUC SEBA combination — Statistics, Economics, Business Studies and Accountancy resources for Karnataka DPUE.",
+    "displayTitle": "2nd PUC — SEBA"
   },
   "1stpuckarnataka": {
-    "title": "1st PUC DPUE karnataka  | Science & Commerce pdf download",
-    "description": "1st PUC DPUE -  karnataka ,download textbooks,notes,previous year papers,model papers,question bank of science and commerce stream of DPUE Karnataka"
+    "title": "1st PUC Karnataka — Science & Commerce Study Resources | PUC Notes",
+    "description": "Access textbooks, notes, model papers, previous year papers and question banks for 1st PUC Karnataka DPUE — Science and Commerce streams.",
+    "displayTitle": "1st PUC — Karnataka DPUE"
   },
   "2nd-pu-notes-physics": {
-    "title": "Karnataka 2nd PUC Physics notes chapter-wise pdf download",
-    "description": "2nd PUC Physics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Physics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Physics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Physics — Chapter Notes"
   },
   "1st-puc-science-pcmc-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU PCMC notes  | qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC PCMC-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC PCMC course having Physics,Chemistry,Mathematics and Computer Science subjects according to NCERT and DPUE karnataka available for pdf download"
+    "title": "1st PUC PCMC — Physics, Chemistry, Maths & Computer Science | PUC Notes",
+    "description": "Study materials for 1st PUC PCMC combination — Physics, Chemistry, Mathematics and Computer Science resources for Karnataka DPUE.",
+    "displayTitle": "1st PUC — PCMC"
   },
   "2nd-puc-chemistry": {
-    "title": "Karnataka 2nd PUC Chemistry Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Chemistry-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Chemistry — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Chemistry model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Chemistry"
   },
   "2nd-puc-science-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU Science | notes,qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC Science-Get textbooks,notes,model papers,previous year question papers,solved papers and question bank for karnataka 2nd PUC science stream consisting of NCERT Physics,Chemistry,Mathematics,Biology,Computer science and Electronics according to karnataka state board syllabus DPUE available for free pdf download"
+    "title": "2nd PUC Science — Notes, Papers & Question Banks | PUC Notes",
+    "description": "Study resources for Karnataka 2nd PUC Science stream — Physics, Chemistry, Mathematics, Biology, Computer Science and Electronics.",
+    "displayTitle": "2nd PUC Science Stream"
   },
   "2nd-puc-commerce-heba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU HEBA notes  | qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC HEBA-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 2nd PUC HEBA course having History,Economics,Business studies and accountancy subjects according to DPUE karnataka available for pdf download"
+    "title": "2nd PUC HEBA — History, Economics, Business Studies & Accountancy | PUC Notes",
+    "description": "Study materials for 2nd PUC HEBA combination — History, Economics, Business Studies and Accountancy resources for Karnataka DPUE.",
+    "displayTitle": "2nd PUC — HEBA"
   },
   "2nd-pu-notes-statistics": {
-    "title": "Karnataka 2nd PUC Statistics notes chapter-wise pdf download",
-    "description": "2nd PUC statistics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Statistics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Statistics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Statistics — Chapter Notes"
   },
   "kcet-cutoffs": {
-    "title": "KCET Cutoffs Latest | Engineering,Agriculture,Architecture,Pharma&BNYS Cutoffs pdf download Cutoff analyser",
-    "description": "Download KCET Cutoffs for various rounds of admissions for Engineering,Agriculture,Architecture,Pharma and Naturopathy&Yoga science disciplines of the year 2018, 2019,2020,2021,2022"
+    "title": "KCET Cutoffs — Engineering, Agriculture, Architecture & More | PUC Notes",
+    "description": "Check KCET cutoffs for Engineering, Agriculture, Architecture, Pharmacy and Naturopathy across admission rounds (2018–2022).",
+    "displayTitle": "KCET Cutoffs"
   },
   "2nd-puc-accountancy": {
-    "title": "Karnataka 2nd PUC Accountancy Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Accountancy-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Accountancy — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Accountancy model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Accountancy"
   },
   "1st-puc-computer-science": {
-    "title": "Karnataka 1st PUC Computer Science Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Computer Science-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Computer Science — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Computer Science model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Computer Science"
   },
   "1st-pu-notes-computer-science": {
-    "title": "Karnataka 1st PUC Computer Science notes chapter-wise pdf download",
-    "description": "1st PUC Computer Science chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Computer Science Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Computer Science notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Computer Science — Chapter Notes"
   },
   "1st-pu-notes-electronics": {
-    "title": "Karnataka 1st PUC Electronics notes chapter-wise pdf download",
-    "description": "1st PUC Electronics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Electronics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Electronics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Electronics — Chapter Notes"
   },
   "1st-puc-business-studies": {
-    "title": "Karnataka 1st PUC Business Studies Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Business studies-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Business Studies — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Business Studies model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Business Studies"
   },
   "question-bank": {
-    "title": "karnataka 1st PUC & 2nd PUC Question bank | KSEEB 10th SSLC question bank download",
-    "description": "Download question bank for all the subjects of 10th standard and for both science & Commerce streams of 1st&2nd PUC karnataka board, based on DPUE and NCERT schemes as direct pdf to score well in exams . Physics , chemistry ,maths ,computer science ,biology,electronics ,statistics ,history ,accountancy ,economics ,hindi ,english ,kannada question bank free pdf download."
+    "title": "Question Banks — 10th, 1st PUC & 2nd PUC | PUC Notes",
+    "description": "Download question banks for Karnataka 10th standard, 1st PUC and 2nd PUC — all subjects.",
+    "displayTitle": "Question Banks"
   },
   "1st-pu-notes-statistics": {
-    "title": "Karnataka 1st PUC Statistics notes chapter-wise pdf download",
-    "description": "1st PUC statistics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Statistics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Statistics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Statistics — Chapter Notes"
   },
   "1st-puc-kannada": {
-    "title": "Karnataka 1st PUC Kannada Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Kannada-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Kannada — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Kannada model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Kannada"
   },
   "2nd-puc-hindi": {
-    "title": "Karnataka 2nd PUC Hindi Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Hindi-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Hindi — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Hindi model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Hindi"
   },
   "1st-pu-notes-physics": {
-    "title": "Karnataka 1st PUC Physics notes chapter-wise pdf download",
-    "description": "1st PUC Physics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Physics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Physics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Physics — Chapter Notes"
   },
   "2nd-pu-notes-kannada": {
-    "title": "2Kannada | Pucnotes Solutions",
-    "description": "2nd PUC Kannada chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Kannada Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Kannada notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Kannada — Chapter Notes"
   },
   "2nd-pu-notes-accountancy": {
-    "title": "Karnataka 2nd PUC Accountancy notes chapter-wise pdf download",
-    "description": "2nd PUC Accountancy chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Accountancy Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Accountancy notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Accountancy — Chapter Notes"
   },
   "2nd-puc-science-pcme-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU PCME notes  | qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC PCME-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC PCME course having Physics,Chemistry,Mathematics and Electronics subjects according to NCERT and DPUE karnataka available for pdf download"
+    "title": "2nd PUC PCME — Physics, Chemistry, Maths & Electronics | PUC Notes",
+    "description": "Study materials for 2nd PUC PCME combination — Physics, Chemistry, Mathematics and Electronics resources for Karnataka DPUE.",
+    "displayTitle": "2nd PUC — PCME"
   },
   "1st-puc-economic": {
-    "title": "Karnataka 1st PUC Economics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Economics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Economics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Economics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Economics"
   },
   "2nd-pu-notes-electronics": {
-    "title": "Karnataka 2nd PUC Electronics notes chapter-wise pdf download",
-    "description": "2nd PUC Electronics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Electronics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Electronics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Electronics — Chapter Notes"
   },
   "2nd-puc-mathematics": {
-    "title": "Karnataka 2nd PUC Mathematics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Mathematics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Mathematics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Mathematics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Mathematics"
   },
   "1st-puc-hindi": {
-    "title": "Karnataka 1st PUC Hindi Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Hindi-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Hindi — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Hindi model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Hindi"
   },
   "1st-pu-notes-chemistry": {
-    "title": "Karnataka 1st PUC Chemistry notes chapter-wise pdf download",
-    "description": "1st PUC Chemistry chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Chemistry Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Chemistry notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Chemistry — Chapter Notes"
   },
   "1st-pu-notes-history": {
-    "title": "Karnataka 1st PUC History notes chapter-wise pdf download",
-    "description": "1st PUC History chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC History Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC History notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC History — Chapter Notes"
   },
   "2nd-puc-languages-hindi-english-kannada-notes-model-question-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU Languages | notes,qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC Languages-Get textbooks,notes,model papers,previous year question papers,solved papers and question bank for karnataka 2nd PUC languages kannada , hindi and englishstream consisting of NCERT Physics,Chemistry,Mathematics,Biology,Computer science and Electronics according to karnataka state board syllabus DPUE available for free pdf download"
+    "title": "2nd PUC Languages — Kannada, Hindi & English Resources | PUC Notes",
+    "description": "Study resources for Karnataka 2nd PUC languages — Kannada, Hindi and English notes, model papers, previous year papers and question banks.",
+    "displayTitle": "2nd PUC Languages"
   },
   "1st-puc-science-pcme-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU PCME notes  | qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC PCME-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC PCME course having Physics,Chemistry,Mathematics and Electronics subjects according to NCERT and DPUE karnataka available for pdf download"
+    "title": "1st PUC PCME — Physics, Chemistry, Maths & Electronics | PUC Notes",
+    "description": "Study materials for 1st PUC PCME combination — Physics, Chemistry, Mathematics and Electronics resources for Karnataka DPUE.",
+    "displayTitle": "1st PUC — PCME"
   },
   "kcet-solved-papers": {
-    "title": "KCET Solved papers | KCET papers with Complete Solutions",
-    "description": "Download KCET Papers from 2014-2022 with complete Solutions to score well in exam . This website contains Solved papers of KCET Exam from 2014 of all the subjects PHysics , Chemistry , Mathematics and Biology"
+    "title": "KCET Solved Papers with Solutions (2014–2022) | PUC Notes",
+    "description": "Download KCET papers from 2014 to 2022 with complete solutions — Physics, Chemistry, Mathematics and Biology.",
+    "displayTitle": "KCET Solved Papers"
   },
   "2nd-puc-commerce-ceba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU CEBA notes  | qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC CEBA-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 2nd PUC CEBA course having Computer Science,Economics,Business studies and accountancy subjects according to DPUE karnataka available for pdf download"
+    "title": "2nd PUC CEBA — Computer Science, Economics, Business Studies & Accountancy | PUC Notes",
+    "description": "Study materials for 2nd PUC CEBA combination — Computer Science, Economics, Business Studies and Accountancy resources for Karnataka DPUE.",
+    "displayTitle": "2nd PUC — CEBA"
   },
   "kcet-question-bank": {
-    "title": "KCET Question bank | Physics,Chemistry,Mathematics,Biology Question bank , Vikasana by KEA",
-    "description": "Go through the question bank of KCET published and hosted by KEA that conducts KCET Examination in order to get better understanding of the questions for the exam"
+    "title": "KCET Question Bank — Vikasana by KEA | PUC Notes",
+    "description": "Access the KCET question bank published by KEA (Vikasana) — Physics, Chemistry, Mathematics and Biology.",
+    "displayTitle": "KCET Question Bank"
   },
   "kcet-question-papers": {
-    "title": "KCET Question papers pdf | Previous year papers with key answers and solutions pdf download",
-    "description": "Download KCET Papers of all subjects from 2014-2022 along with Key answers and solutions to understand and learn accordingly to score more in the exam."
+    "title": "KCET Previous Year Question Papers with Key Answers | PUC Notes",
+    "description": "Download KCET question papers from 2014 to 2022 with key answers and solutions.",
+    "displayTitle": "KCET Question Papers"
   },
   "2nd-puc-science-pcmc-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU PCMC notes  | qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC PCMC-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC PCMC course having Physics,Chemistry,Mathematics and Computer Science subjects according to NCERT and DPUE karnataka available for pdf download"
+    "title": "2nd PUC PCMC — Physics, Chemistry, Maths & Computer Science | PUC Notes",
+    "description": "Study materials for 2nd PUC PCMC combination — Physics, Chemistry, Mathematics and Computer Science resources for Karnataka DPUE.",
+    "displayTitle": "2nd PUC — PCMC"
   },
   "10th-textbookspdfdownload": {
-    "title": "Karnataka state board SSLC 10th textbooks pdf download | Science,maths,social,hindi,english,kannada textbook pdf download",
-    "description": "Download SSLC textbooks of Karnataka state board KSEEB from KTBS . Science,mathematics,Social,Hindi,English,Kannada textbooks pdf download"
+    "title": "KSEEB 10th Standard Textbooks — SSLC PDF Download | PUC Notes",
+    "description": "Download 10th standard textbooks from KTBS for Karnataka state board KSEEB — Science, Maths, Social, Hindi, English and Kannada.",
+    "displayTitle": "10th Standard Textbooks"
   },
   "2nd-pu-notes-business-studies": {
-    "title": "Karnataka 2nd PUC Business Studies notes chapter-wise pdf download",
-    "description": "2nd PUC Business studies chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Business Studies Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Business Studies notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Business Studies — Chapter Notes"
   },
   "2nd-pu-notes-biology": {
-    "title": "Karnataka 2nd PUC Biology notes chapter-wise pdf download",
-    "description": "2nd PUC Biology chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Biology Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Biology notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Biology — Chapter Notes"
   },
   "2nd-puc-statistics": {
-    "title": "Karnataka 2nd PUC Statistics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Statistics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Statistics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Statistics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Statistics"
   },
   "2nd-puc-biology": {
-    "title": "Karnataka 2nd PUC Biology Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Biology-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Biology — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Biology model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Biology"
   },
   "2ndpuckarnataka": {
-    "title": "2nd PUC DPUE karnataka  | Science & Commerce pdf download",
-    "description": "2nd PUC DPUE -  karnataka ,download textbooks,notes,previous year papers,model papers,question bank of science and commerce stream of DPUE Karnataka"
+    "title": "2nd PUC Karnataka — Science & Commerce Study Resources | PUC Notes",
+    "description": "Access textbooks, notes, model papers, previous year papers and question banks for 2nd PUC Karnataka DPUE — Science and Commerce streams.",
+    "displayTitle": "2nd PUC — Karnataka DPUE"
   },
   "1st-puc-science-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU Science | notes,qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC Science-Get textbooks,notes,model papers,previous year question papers,solved papers and question bank for karnataka 1st PUC science stream consisting of NCERT Physics,Chemistry,Mathematics,Biology,Computer science and Electronics according to karnataka state board syllabus DPUE available for free pdf download"
+    "title": "1st PUC Science — Notes, Papers & Question Banks | PUC Notes",
+    "description": "Study resources for Karnataka 1st PUC Science stream — Physics, Chemistry, Mathematics, Biology, Computer Science and Electronics.",
+    "displayTitle": "1st PUC Science Stream"
   },
   "kcet-latest-news": {
-    "title": "KCET Latest News & Updates | Admissions , Application , Verification , Results",
-    "description": "Get latest and on-going updates on admission process under KCET for various disciplines like Engineering, agriculture, architecture etc and the important dates in which processes take place"
+    "title": "KCET Latest News & Updates — Admissions, Results & Dates | PUC Notes",
+    "description": "Stay updated on KCET admissions, application deadlines, document verification, results and important dates.",
+    "displayTitle": "KCET Latest News"
   },
   "1st-puc-electronics": {
-    "title": "Karnataka 1st PUC Electronics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Electronics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Electronics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Electronics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Electronics"
   },
   "1st-pu-accountancy-notes": {
-    "title": "Karnataka 1st PUC Accountancy notes chapter-wise pdf download",
-    "description": "1st PUC Accountancy chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Accountancy Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Accountancy notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Accountancy — Chapter Notes"
   },
   "2nd-puc-commerce-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 2nd PU Commerce | notes,qs papers,textbooks,question bank pdf download",
-    "description": "2nd PUC commerce-Get textbooks,notes,model papers,previous year question papers,solved papers and question bank for karnataka 2nd PUC Commerce stream consisting of NCERT Physics,Chemistry,Mathematics,Biology,Computer science and Electronics according to karnataka state board syllabus DPUE available for free pdf download"
+    "title": "2nd PUC Commerce — Notes, Papers & Question Banks | PUC Notes",
+    "description": "Study resources for Karnataka 2nd PUC Commerce stream — Accountancy, Business Studies, Economics, Statistics and more.",
+    "displayTitle": "2nd PUC Commerce Stream"
   },
   "2nd-puc-history": {
-    "title": "Karnataka 2nd PUC History Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC History-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC History — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC History model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC History"
   },
   "kcet-mock-papers": {
-    "title": "KCET Mock papers | Practice papers pdf download",
-    "description": "Download these model papers so that you get better understanding of the questions being asked and improve your time management to score well in the exam"
+    "title": "KCET Mock Papers — Practice Papers PDF Download | PUC Notes",
+    "description": "Download KCET mock/practice papers to improve your exam preparation and time management.",
+    "displayTitle": "KCET Mock Papers"
   },
   "2ndpuctextbookdownload": {
-    "title": "Karnataka 2nd PUC textbook pdf download|Science & Commerce textbooks pdf",
-    "description": "Download textbooks for all the subjects of both science & Commerce streams of 2nd PUC karnataka board, based on DPUE and NCERT schemes as direct pdf. Physics textbook, chemistry textbook,maths textbook,computer science textbook,biology textbook,electronics textbook,statistics textbook,history textbook,accountancy textbook,economics textbook,hindi textbook,english textbook,kannada textbook free pdf download."
+    "title": "2nd PUC Textbooks — Science & Commerce PDF Download | PUC Notes",
+    "description": "Download textbooks for all 2nd PUC subjects — Science and Commerce streams, based on DPUE and NCERT syllabus.",
+    "displayTitle": "2nd PUC Textbooks"
   },
   "1st-puc-languages-hindi-english-kannada-notes-model-question-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU Languages | notes,qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC Languages-Get textbooks,notes,model papers,previous year question papers,solved papers and question bank for karnataka 1st PUC languages kannada , hindi and englishstream consisting of NCERT Physics,Chemistry,Mathematics,Biology,Computer science and Electronics according to karnataka state board syllabus DPUE available for free pdf download"
+    "title": "1st PUC Languages — Kannada, Hindi & English Resources | PUC Notes",
+    "description": "Study resources for Karnataka 1st PUC languages — Kannada, Hindi and English notes, model papers, previous year papers and question banks.",
+    "displayTitle": "1st PUC Languages"
   },
   "textbooksdownload": {
-    "title": "KTBS & DPUE | Karnataka state board 10th standard and 1st PUC, 2nd PUC tetxbook pdf download",
-    "description": "Download textbooks for karnataka stateboard KSEEB 10th standard and DPUE NCERT 1st and 2nd PUC textbooks"
+    "title": "Karnataka State Board Textbooks — 10th, 1st PUC & 2nd PUC PDF Download | PUC Notes",
+    "description": "Download textbooks for Karnataka state board KSEEB 10th standard and DPUE 1st & 2nd PUC.",
+    "displayTitle": "Textbook Downloads"
   },
   "1st-pu-notes-english": {
-    "title": "Karnataka 1st PUC English notes chapter-wise pdf download",
-    "description": "1st PUC English chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC English Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC English notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC English — Chapter Notes"
   },
   "privacy-policy": {
-    "title": "Privacy Policy  | Pucnotes&Solutions",
-    "description": "our Privacy Policy"
+    "title": "Privacy Policy | PUC Notes & Solutions",
+    "description": "Read our privacy policy to understand how we handle your data.",
+    "displayTitle": "Privacy Policy"
   },
   "2nd-puc-business-studies": {
-    "title": "Karnataka 2nd PUC Business Studies Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Business studies-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Business Studies — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Business Studies model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Business Studies"
   },
   "1st-puc-commerce-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU Commerce | notes,qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC Commerce-Get textbooks,notes,model papers,previous year question papers,solved papers and question bank for karnataka 1st PUC commerce stream consisting of NCERT Physics,Chemistry,Mathematics,Biology,Computer science and Electronics according to karnataka state board syllabus DPUE available for free pdf download"
+    "title": "1st PUC Commerce — Notes, Papers & Question Banks | PUC Notes",
+    "description": "Study resources for Karnataka 1st PUC Commerce stream — Accountancy, Business Studies, Economics, Statistics and more.",
+    "displayTitle": "1st PUC Commerce Stream"
   },
   "terms-conditions": {
-    "title": "Terms & Conditions | Pucnotes&Solutions",
-    "description": "Our Terms & Conditions"
+    "title": "Terms & Conditions | PUC Notes & Solutions",
+    "description": "Review the terms and conditions for using PUC Notes & Solutions.",
+    "displayTitle": "Terms & Conditions"
   },
   "1st-puc-commerce-heba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU HEBA notes  | qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC HEBA-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC HEBA course having History,Economics,Business studies and accountancy subjects according to DPUE karnataka available for pdf download"
+    "title": "1st PUC HEBA — History, Economics, Business Studies & Accountancy | PUC Notes",
+    "description": "Study materials for 1st PUC HEBA combination — History, Economics, Business Studies and Accountancy resources for Karnataka DPUE.",
+    "displayTitle": "1st PUC — HEBA"
   },
   "2nd-pu-notes-economics": {
-    "title": "Karnataka 2nd PUC Economics notes chapter-wise pdf download",
-    "description": "2nd puc economics,2 economics,2puc notes economics,2nd PUC Economics chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Economics Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Economics notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Economics — Chapter Notes"
   },
   "2nd-pu-notes-chemistry": {
-    "title": "Karnataka 2nd PUC Chemistry notes chapter-wise pdf download",
-    "description": "2nd PUC Chemistry chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Chemistry Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Chemistry notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Chemistry — Chapter Notes"
   },
   "revision-notes": {
-    "title": "1st PUC & 2nd PUC Chapter-wise notes | karnataka 1st and 2nd puc short notes",
-    "description": "Download Chapter-wise revision notes for karnataka 1st PUC & 2nd PUC  according to syllabus prescribed by DPUE Karnataka, notes for both commerce and science stream along with languages are available for download in pdf format.Subjects includes Physics , chemistry ,maths ,computer science ,biology,electronics ,statistics ,history ,accountancy ,economics ,hindi ,english ,kannada."
+    "title": "Chapter-wise Revision Notes — 1st PUC & 2nd PUC | PUC Notes",
+    "description": "Download chapter-wise revision notes for Karnataka 1st PUC and 2nd PUC — both Science and Commerce streams.",
+    "displayTitle": "Chapter-wise Revision Notes"
   },
   "solved-papers": {
-    "title": "karnataka 1st PUC & 2nd PUC solved papers | KSEEB 10th SSLC solved papers download",
-    "description": "Download solved papers for all the subjects of 10th standard and for both science & Commerce streams of 1st&2nd PUC karnataka board, based on DPUE and NCERT schemes as direct pdf to score well in exams . Physics , chemistry ,maths ,computer science ,biology,electronics ,statistics ,history ,accountancy ,economics ,hindi ,english ,kannada solved papers free pdf download."
+    "title": "Solved Papers — 1st PUC & 2nd PUC | PUC Notes",
+    "description": "Download solved papers with detailed solutions for Karnataka 1st PUC and 2nd PUC — all subjects.",
+    "displayTitle": "Solved Papers"
   },
   "model-papers": {
-    "title": "karnataka 1st PUC & 2nd PUC Model Papers | KSEEB 10th SSLC Model papers download",
-    "description": "Download model papers for all the subjects of 10th standard and for both science & Commerce streams of 1st&2nd PUC karnataka board, based on DPUE and NCERT schemes as direct pdf to score well in exams . Physics , chemistry ,maths ,computer science ,biology,electronics ,statistics ,history ,accountancy ,economics ,hindi ,english ,kannada model papers free pdf download."
+    "title": "Model Papers — 1st PUC & 2nd PUC | PUC Notes",
+    "description": "Download model papers for Karnataka 1st PUC and 2nd PUC — all subjects with solutions.",
+    "displayTitle": "Model Papers"
   },
   "1st-puc-commerce-ceba-notes-model-papers-question-papers-questionbank-solved-papers-download-pdf": {
-    "title": "Karnataka 1st PU CEBA notes  | qs papers,textbooks,question bank pdf download",
-    "description": "1st PUC CEBA-Download question papers,notes,model papers,textbooks,solved papers and question bank for Karnataka 1st PUC CEBA course having Computer science,Economics,Business studies and accountancy subjects according to DPUE karnataka available for pdf download"
+    "title": "1st PUC CEBA — Computer Science, Economics, Business Studies & Accountancy | PUC Notes",
+    "description": "Study materials for 1st PUC CEBA combination — Computer Science, Economics, Business Studies and Accountancy resources for Karnataka DPUE.",
+    "displayTitle": "1st PUC — CEBA"
   },
   "2nd-puc-economics": {
-    "title": "Karnataka 2nd PUC Economics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Economics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Economics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Economics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Economics"
   },
   "1st-puc-biology": {
-    "title": "Karnataka 1st PUC Biology Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Biology-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Biology — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Biology model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Biology"
   },
   "kcet": {
-    "title": "KCET Latest | Solved papers,Exam pattern,Question bank,Cutoffs pdf download",
-    "description": "Latest Updates on Previous year papers , Cutoffs , Solved papers with solutions , Answer keys , Question bank , Revision notes , Exam pattern available for download as pdfs to help you score well in exams."
+    "title": "KCET — Solved Papers, Exam Pattern, Question Bank & Cutoffs | PUC Notes",
+    "description": "Everything you need for KCET preparation — previous year papers, solved papers, exam pattern, question banks, cutoffs and revision notes.",
+    "displayTitle": "KCET Resources"
   },
   "2nd-pu-notes-hindi": {
-    "title": "Karnataka 2nd PUC Hindi notes chapter-wise pdf download",
-    "description": "2nd PUC Hindi chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "2nd PUC Hindi Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 2nd PUC Hindi notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "2nd PUC Hindi — Chapter Notes"
   },
   "1st-puc-accountancy-content": {
-    "title": "Karnataka 1st PUC Accountancy Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Accountancy-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC Accountancy — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC Accountancy model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC Accountancy"
   },
   "kcet-revision-notes": {
-    "title": "KCET Revision notes | Physics,Chemistry,Mathematics,Biology revison notes pdf download",
-    "description": "Download Revision notes for a quick glance of all the topics for the KCET Examination of all the subjects Physics, Chemistry, mathematics and biology available for download as pdf."
+    "title": "KCET Revision Notes — Physics, Chemistry, Maths & Biology | PUC Notes",
+    "description": "Quick revision notes covering all KCET topics — Physics, Chemistry, Mathematics and Biology available as free PDF downloads.",
+    "displayTitle": "KCET Revision Notes"
   },
   "1st-puc-history": {
-    "title": "Karnataka 1st PUC History Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC Hindi-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC History — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC History model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC History"
   },
   "1st-pu-notes-hindi": {
-    "title": "Karnataka 1st PUC Hindi notes chapter-wise pdf download,1st puc hindi notes,1st puc hindi notes pdf download.",
-    "description": "1st PUC Hindi chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Hindi Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Hindi notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Hindi — Chapter Notes"
   },
   "1st-pu-notes-biology": {
-    "title": "Karnataka 1st PUC Biology notes chapter-wise pdf download",
-    "description": "1st PUC Biology chapter-wise notes & solutions pdf download.Revision notes and study materials are available for download in pdf format of all the chapters according to karnataka state board DPUE syllabus"
+    "title": "1st PUC Biology Notes — Chapter-wise PDF Download | PUC Notes",
+    "description": "Download chapter-wise 1st PUC Biology notes and revision materials as PDF, aligned to Karnataka DPUE syllabus.",
+    "displayTitle": "1st PUC Biology — Chapter Notes"
   },
   "mid-term-papers": {
-    "title": "karnataka 1st PUC & 2nd PUC Mid-Term Papers | Mid-Term papers download",
-    "description": "Download Mid-Term papers for all the subjects of  both science & Commerce streams of 1st&2nd PUC karnataka board, based on DPUE and NCERT schemes as direct pdf to score well in exams . Physics , chemistry ,maths ,computer science ,biology,electronics ,statistics ,history ,accountancy ,economics ,hindi ,english ,kannada midterm papers free pdf download."
+    "title": "Mid-Term Papers — 1st PUC & 2nd PUC | PUC Notes",
+    "description": "Download mid-term papers for Karnataka 1st PUC and 2nd PUC — all subjects, Science and Commerce streams.",
+    "displayTitle": "Mid-Term Papers"
   },
   "2nd-puc-electronics": {
-    "title": "/Karnataka 2nd PUC Electronics Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "2nd PUC Electronics-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "2nd PUC Electronics — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 2nd PUC Electronics model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "2nd PUC Electronics"
   },
   "1st-puc-english": {
-    "title": "Karnataka 1st PUC English Model papers with solutions, previous year papers , question bank pdf download",
-    "description": "1st PUC English-Download model papers with solutions along with previous year papers, solved papers and question bank available as pdf download."
+    "title": "1st PUC English — Model Papers, Previous Year Papers & Question Bank | PUC Notes",
+    "description": "Download 1st PUC English model papers with solutions, previous year papers, solved papers and question banks.",
+    "displayTitle": "1st PUC English"
   },
   "exclusive-short-notes": {
-    "title": "1st PUC & 2nd PUC short notes | karnataka 1st and 2nd puc revision notes",
-    "description": "Exclusive short notes to score more than 90% in board exams of karnataka DPUE board for science stream is uploaded and is available for free download in pdf format"
+    "title": "Exclusive Short Notes — 1st PUC & 2nd PUC | PUC Notes",
+    "description": "Condensed short notes designed to help score 90%+ in Karnataka DPUE board exams — available as free PDF downloads.",
+    "displayTitle": "Exclusive Short Notes"
   },
   "content-updates": {
-    "title": "content to be updated",
-    "description": "sorry for inconvenience"
+    "title": "Content Updates | PUC Notes & Solutions",
+    "description": "Check the latest content updates and new additions to PUC Notes & Solutions.",
+    "displayTitle": "Content Updates"
   }
 }
