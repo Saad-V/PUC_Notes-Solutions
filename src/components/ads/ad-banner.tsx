@@ -25,10 +25,11 @@ export function AdBanner({
   const rawClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-XXXXXXXXXXXXXX";
   const client = rawClient.startsWith("ca-") ? rawClient : `ca-${rawClient}`;
   const showTestAds = process.env.NEXT_PUBLIC_ENABLE_TEST_ADS === "true";
-  const isDev = !showTestAds && (process.env.NODE_ENV === "development" || client === "ca-pub-XXXXXXXXXXXXXX");
+  const isPlaceholderClient = client === "ca-pub-XXXXXXXXXXXXXX";
+  const isPlaceholderSlot = slot === "1234567890";
 
   useEffect(() => {
-    if (!isDev && client !== "ca-pub-XXXXXXXXXXXXXX") {
+    if (!isPlaceholderClient && !isPlaceholderSlot) {
       try {
         const insElement = adRef.current?.querySelector("ins.adsbygoogle");
         if (insElement && !insElement.getAttribute("data-adsbygoogle-status")) {
@@ -39,22 +40,23 @@ export function AdBanner({
         console.error("AdSense error:", err);
       }
     }
-  }, [isDev, client]);
+  }, [isPlaceholderClient, isPlaceholderSlot, client]);
 
-  if (isDev) {
+  // If using placeholder client or placeholder slot ID, display a sleek demo placeholder unit
+  if (isPlaceholderClient || isPlaceholderSlot) {
     return (
       <div
-        className={`my-6 border border-dashed border-primary/30 rounded-xl p-4 bg-muted/30 text-center flex flex-col items-center justify-center min-h-[100px] text-xs text-muted-foreground ${className}`}
+        className={`my-2 border border-dashed border-primary/30 rounded-xl p-3 bg-muted/30 text-center flex flex-col items-center justify-center min-h-[80px] text-xs text-muted-foreground ${className}`}
       >
-        <span className="font-semibold text-primary/80 mb-1">📢 Advertisement Unit (AdSense Demo)</span>
-        <span>Format: {format} | Slot: {slot}</span>
-        <span className="text-[10px] opacity-75 mt-1">Configured for Google AdSense Production Deployment</span>
+        <span className="font-semibold text-primary/80 mb-0.5">📢 Google AdSense Unit Placeholder</span>
+        <span>Publisher: <code className="text-primary/90">{client}</code> | Slot ID: <code className="text-primary/90">{slot}</code></span>
+        <span className="text-[10px] opacity-75 mt-1">Replace slot ID with a valid Display Ad Slot ID from your Google AdSense dashboard to go live.</span>
       </div>
     );
   }
 
   return (
-    <div className={`my-6 overflow-hidden text-center min-h-[90px] bg-muted/20 rounded-lg border border-border/40 flex items-center justify-center ${className}`} ref={adRef}>
+    <div className={`my-2 overflow-hidden text-center min-h-[90px] bg-muted/20 rounded-lg border border-border/40 flex items-center justify-center ${className}`} ref={adRef}>
       <ins
         className="adsbygoogle"
         style={{ display: "block", minWidth: "250px", minHeight: "90px" }}
