@@ -475,5 +475,10 @@
   },
   "menu": {
     "type": "static"
+  },
+  "2nd-pu-notes-english-archive": {
+    "type": "subject",
+    "entityId": "2nd-pu-english",
+    "subType": "notes-archive"
   }
 }

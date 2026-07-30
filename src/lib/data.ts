@@ -138,6 +138,7 @@ export const RESOURCE_TYPE_META: Record<string, ResourceTypeMeta> = {
   short_notes:         { title: "Exclusive Short Notes",  slug: "short-notes",         description: "Exam preparation notes",                icon: "Star",           order: 8 },
   ncert_solutions:     { title: "NCERT Solutions",        slug: "ncert-solutions",     description: "NCERT textbook solutions",              icon: "GraduationCap",  order: 9 },
   mid_term_paper:      { title: "Mid-Term Papers",        slug: "mid-term-papers",     description: "Mid-term examination papers",            icon: "ClipboardList",  order: 10 },
+  old_notes:           { title: "Old Notes (Archive)",    slug: "old-notes",           description: "Previously available chapter-wise notes", icon: "Archive",        order: 11 },
   unknown:             { title: "Other Resources",        slug: "other-resources",     description: "Additional study material",              icon: "FolderOpen",     order: 99 },
 };
 
@@ -155,12 +156,15 @@ export function getCategorySlugToTypeMap(): Record<string, string> {
 // ──────────────────────────────────────────────
 
 /**
- * Get all resources for a subject by aggregating both paperSlug and notesSlug.
+ * Get all resources for a subject by aggregating paperSlug, notesSlug, and any archive slug.
  */
 export function getAllResourcesForSubject(subject: SubjectData): ResourceData[] {
   const paperResources = getResources(subject.paperSlug);
   const notesResources = getResources(subject.notesSlug);
-  return [...paperResources, ...notesResources];
+  // Also include archived notes if they exist (e.g. "2nd-pu-notes-english-archive")
+  const archiveSlug = `${subject.notesSlug}-archive`;
+  const archiveResources = getResources(archiveSlug);
+  return [...paperResources, ...notesResources, ...archiveResources];
 }
 
 /**
