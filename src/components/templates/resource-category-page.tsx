@@ -2,6 +2,7 @@ import Link from "next/link";
 import { PageHeader } from "@/components/page-header";
 import { ResourceCard } from "@/components/resource-card";
 import { ComingSoon } from "@/components/coming-soon";
+import { RewardedAdWall } from "@/components/rewarded-ad-wall";
 import {
   getSubjectBySlug, buildCategoryBreadcrumbs,
   getResourcesForCategory, getCategoryMeta,
@@ -65,11 +66,14 @@ export function ResourceCategoryPage({ subjectSlug, categorySlug }: ResourceCate
             </div>
           )}
 
-          <div className="grid gap-3">
-            {resources.map((resource, idx) => (
-              <ResourceCard key={`${resource.fileId}-${idx}`} resource={resource} />
-            ))}
-          </div>
+          {/* Rewarded ad wall gates PDF access — user must complete ad before seeing links */}
+          <RewardedAdWall>
+            <div className="grid gap-3">
+              {resources.map((resource, idx) => (
+                <ResourceCard key={`${resource.fileId}-${idx}`} resource={resource} />
+              ))}
+            </div>
+          </RewardedAdWall>
         </>
       ) : (
         <ComingSoon
