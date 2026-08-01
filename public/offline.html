@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - PUC Notes & Solutions</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #fafafa;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    .icon {
+      width: 80px;
+      height: 80px;
+      color: #9ca3af;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #4F46E5;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #666;
+      max-width: 400px;
+      line-height: 1.6;
+    }
+    .btn {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background: #4F46E5;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #4338ca;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #020817; color: #f8fafc; }
+      h1 { color: #818cf8; }
+      p { color: #94a3b8; }
+    }
+  </style>
+</head>
+<body>
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
+  <h1>You're Offline</h1>
+  <p>Please check your internet connection to access study notes, PDFs, and model papers.</p>
+  <a href="javascript:window.location.reload()" class="btn">Try Again</a>
+</body>
+</html>

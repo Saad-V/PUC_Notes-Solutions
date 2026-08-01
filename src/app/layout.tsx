@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -19,9 +19,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  themeColor: "#4F46E5",
+};
+
 export const metadata: Metadata = {
   title: "PUC Notes & Solutions",
   description: "Notes and textbooks of KSEEB 10th and DPUE 1st & 2nd PUC",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    title: "PUC Notes",
+    statusBarStyle: "default",
+    capable: true,
+  },
 };
 
 export default function RootLayout({
@@ -43,6 +53,17 @@ export default function RootLayout({
         <Footer />
         <StickyBottomAd />
         <SpeedInsights />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                  navigator.serviceWorker.register('/sw.js');
+                });
+              }
+            `,
+          }}
+        />
       </body>
     </html>
   );
