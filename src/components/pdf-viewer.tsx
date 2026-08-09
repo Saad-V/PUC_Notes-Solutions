@@ -33,7 +33,7 @@ export function PdfViewer({ title, pdfUrl, fileId, type = "drive" }: PdfViewerPr
     <RewardedAdWall>
       <div className="flex flex-col space-y-4 w-full max-w-5xl mx-auto py-2">
         {/* Top Ad Unit */}
-        <AdBanner slot="1122334455" format="horizontal" className="my-2" />
+        <AdBanner slot="3860351353" format="horizontal" className="my-2" />
 
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <h2 className="text-xl md:text-2xl font-bold tracking-tight">{title}</h2>
@@ -63,7 +63,7 @@ export function PdfViewer({ title, pdfUrl, fileId, type = "drive" }: PdfViewerPr
         </Card>
 
         {/* Bottom Ad Unit */}
-        <AdBanner slot="5544332211" format="horizontal" className="my-4" />
+        <AdBanner slot="6936126746" format="horizontal" className="my-4" />
       </div>
     </RewardedAdWall>
   );

@@ -13,7 +13,7 @@ export function StickyBottomAd() {
     <div className="fixed bottom-0 left-0 right-0 z-40 bg-background/95 backdrop-blur border-t border-border shadow-2xl p-2 md:p-3 transition-all duration-300">
       <div className="max-w-5xl mx-auto flex items-center justify-between gap-2">
         <div className="flex-1 overflow-hidden">
-          <AdBanner slot="9988776655" format="horizontal" responsive={true} className="my-0" />
+          <AdBanner slot="2610848868" format="horizontal" responsive={true} className="my-0" />
         </div>
         <button
           onClick={() => setDismissed(true)}
