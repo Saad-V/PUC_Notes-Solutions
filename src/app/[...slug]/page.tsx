@@ -41,13 +41,48 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
+  const baseUrl = "https://www.pucnotes-solutions.com";
 
   if (slug.length === 1) {
-    const meta = getMetadata(slug[0]);
+    const pathSlug = slug[0];
+    const meta = getMetadata(pathSlug);
     if (!meta) {
       return { title: "Not Found", description: "Page not found." };
     }
-    return { title: meta.title, description: meta.description };
+    
+    // Resolve primary slug for canonical URL to avoid duplicate content penalties
+    let canonicalPath = pathSlug;
+    const entry = resolveSlug(pathSlug);
+    if (entry) {
+      if (entry.type === "stream") {
+        const stream = getStream(entry.entityId!);
+        if (stream && stream.slugs.length > 0) canonicalPath = stream.slugs[0];
+      } else if (entry.type === "class") {
+        const cls = getClass(entry.entityId!);
+        if (cls && cls.slug) canonicalPath = cls.slug;
+      }
+    }
+
+    const canonicalUrl = `${baseUrl}/${canonicalPath}`;
+    
+    return { 
+      title: meta.title, 
+      description: meta.description,
+      alternates: { canonical: canonicalUrl },
+      openGraph: {
+        title: meta.title,
+        description: meta.description,
+        url: canonicalUrl,
+        siteName: "PUC Notes & Solutions",
+        type: "website",
+        locale: "en_IN",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: meta.title,
+        description: meta.description,
+      }
+    };
   }
 
   if (slug.length === 2) {
@@ -56,9 +91,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const catMeta = getCategoryMeta(categorySlug);
 
     if (subject && catMeta) {
+      const title = `${subject.name} ${catMeta.title} | PUC Notes & Solutions`;
+      const description = `Download ${subject.name} ${catMeta.title.toLowerCase()} — ${catMeta.description}.`;
+      const canonicalUrl = `${baseUrl}/${subjectSlug}/${categorySlug}`;
+      
       return {
-        title: `${subject.name} ${catMeta.title} | PUC Notes & Solutions`,
-        description: `Download ${subject.name} ${catMeta.title.toLowerCase()} — ${catMeta.description}.`,
+        title,
+        description,
+        alternates: { canonical: canonicalUrl },
+        openGraph: {
+          title,
+          description,
+          url: canonicalUrl,
+          siteName: "PUC Notes & Solutions",
+          type: "website",
+          locale: "en_IN",
+        },
+        twitter: {
+          card: "summary_large_image",
+          title,
+          description,
+        }
       };
     }
   }
