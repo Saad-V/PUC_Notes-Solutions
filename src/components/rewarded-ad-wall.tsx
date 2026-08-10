@@ -53,6 +53,11 @@ interface RewardedSlotClosedEvent {
   slot: GptSlot;
 }
 
+interface SlotRenderEndedEvent {
+  isEmpty: boolean;
+  slot: GptSlot;
+}
+
 interface GptPubAds {
   addEventListener(
     eventType: "rewardedSlotReady",
@@ -65,6 +70,10 @@ interface GptPubAds {
   addEventListener(
     eventType: "rewardedSlotClosed",
     callback: (event: RewardedSlotClosedEvent) => void
+  ): void;
+  addEventListener(
+    eventType: "slotRenderEnded",
+    callback: (event: SlotRenderEndedEvent) => void
   ): void;
 }
 
