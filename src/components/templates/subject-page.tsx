@@ -37,7 +37,7 @@ export function SubjectPage({ subjectData, slug }: SubjectPageProps) {
       />
 
       {/* In-Feed Banner Ad */}
-      <AdBanner slot="4433221100" format="horizontal" className="my-4" />
+      <AdBanner slot="3860351353" format="horizontal" className="my-4" />
 
       {/* Resource Dashboard */}
       {categories.length > 0 ? (

@@ -386,6 +386,25 @@ export function RewardedAdWall({ children }: RewardedAdWallProps) {
             }
           }
         );
+
+        // Detect if ad fails to fill (no ad returned)
+        gt.pubads().addEventListener(
+          "slotRenderEnded",
+          (evt: any) => {
+            if (evt.slot === slotRef.current && evt.isEmpty) {
+              console.warn("[RewardedAdWall] Ad failed to fill (empty) — using fallback");
+              if (timeoutRef.current) {
+                clearTimeout(timeoutRef.current);
+                timeoutRef.current = null;
+              }
+              if (slotRef.current && window.googletag?.apiReady) {
+                window.googletag.destroySlots([slotRef.current]);
+                slotRef.current = null;
+              }
+              startFallbackRef.current();
+            }
+          }
+        );
       }
 
       // Enable services (only once)

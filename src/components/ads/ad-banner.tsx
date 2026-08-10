@@ -7,6 +7,7 @@ interface AdBannerProps {
   format?: "auto" | "fluid" | "rectangle" | "horizontal" | "vertical";
   responsive?: boolean;
   className?: string;
+  onAdStatusChange?: (status: "filled" | "unfilled") => void;
 }
 
 declare global {
@@ -20,6 +21,7 @@ export function AdBanner({
   format = "auto",
   responsive = true,
   className = "",
+  onAdStatusChange,
 }: AdBannerProps) {
   const adRef = useRef<HTMLDivElement>(null);
   const rawClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-XXXXXXXXXXXXXX";
@@ -32,15 +34,40 @@ export function AdBanner({
     if (!isPlaceholderClient && !isPlaceholderSlot) {
       try {
         const insElement = adRef.current?.querySelector("ins.adsbygoogle");
-        if (insElement && !insElement.getAttribute("data-adsbygoogle-status")) {
-          window.adsbygoogle = window.adsbygoogle || [];
-          window.adsbygoogle.push({});
+        if (insElement) {
+          if (!insElement.getAttribute("data-adsbygoogle-status")) {
+            window.adsbygoogle = window.adsbygoogle || [];
+            window.adsbygoogle.push({});
+          }
+
+          if (onAdStatusChange) {
+            const currentStatus = insElement.getAttribute("data-ad-status");
+            if (currentStatus === "unfilled" || currentStatus === "filled") {
+              onAdStatusChange(currentStatus as "filled" | "unfilled");
+            }
+
+            const observer = new MutationObserver((mutations) => {
+              mutations.forEach((mutation) => {
+                if (
+                  mutation.type === "attributes" &&
+                  mutation.attributeName === "data-ad-status"
+                ) {
+                  const status = (mutation.target as HTMLElement).getAttribute("data-ad-status");
+                  if (status === "unfilled" || status === "filled") {
+                    onAdStatusChange(status as "filled" | "unfilled");
+                  }
+                }
+              });
+            });
+            observer.observe(insElement, { attributes: true, attributeFilter: ["data-ad-status"] });
+            return () => observer.disconnect();
+          }
         }
       } catch (err) {
         console.error("AdSense error:", err);
       }
     }
-  }, [isPlaceholderClient, isPlaceholderSlot, client]);
+  }, [isPlaceholderClient, isPlaceholderSlot, client, onAdStatusChange]);
 
   // If using placeholder client or placeholder slot ID, display a sleek demo placeholder unit
   if (isPlaceholderClient || isPlaceholderSlot) {
