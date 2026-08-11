@@ -119,7 +119,7 @@ export function AnnouncementLightbox() {
               <ArrowRight className="mr-2 h-4 w-4" />
               Start Exploring
             </Button>
-            <Link href="/contact" onClick={dismiss}>
+            <Link href="/contact" onClick={dismiss} prefetch={false}>
               <Button
                 variant="outline"
                 size="lg"
