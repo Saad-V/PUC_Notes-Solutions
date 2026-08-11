@@ -24,12 +24,14 @@ export default function Home() {
             <Link
               href="/1stpuckarnataka"
               className={buttonVariants({ size: "lg" })}
+              prefetch={false}
             >
               1st PU Notes
             </Link>
             <Link
               href="/2ndpuckarnataka"
               className={buttonVariants({ size: "lg", variant: "outline" })}
+              prefetch={false}
             >
               2nd PU Notes
             </Link>
@@ -66,24 +68,28 @@ export default function Home() {
             <Link
               href="/model-papers"
               className={buttonVariants({ variant: "secondary", size: "lg" })}
+              prefetch={false}
             >
               Model Papers
             </Link>
             <Link
               href="/question-bank"
               className={buttonVariants({ variant: "secondary", size: "lg" })}
+              prefetch={false}
             >
               Question Banks
             </Link>
             <Link
               href="/previous-year-papers"
               className={buttonVariants({ variant: "secondary", size: "lg" })}
+              prefetch={false}
             >
               Previous Year Papers
             </Link>
             <Link
               href="/revision-notes"
               className={buttonVariants({ variant: "secondary", size: "lg" })}
+              prefetch={false}
             >
               Revision Notes
             </Link>

@@ -45,6 +45,7 @@ export function ResourceCategoryPage({ subjectSlug, categorySlug }: ResourceCate
             <Link
               href={`/${subjectSlug}`}
               className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
+              prefetch={false}
             >
               <ArrowLeft className="h-4 w-4" />
               Back to {subject?.name || 'subject'} resources

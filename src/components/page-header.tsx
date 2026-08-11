@@ -28,7 +28,7 @@ export function PageHeader({ title, description, breadcrumbs }: PageHeaderProps)
                   {i === breadcrumbs.length - 1 ? (
                     <BreadcrumbPage>{crumb.label}</BreadcrumbPage>
                   ) : (
-                    <Link href={crumb.href} className="transition-colors hover:text-foreground">
+                    <Link href={crumb.href} className="transition-colors hover:text-foreground" prefetch={false}>
                       {crumb.label}
                     </Link>
                   )}

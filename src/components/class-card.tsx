@@ -10,7 +10,7 @@ interface ClassCardProps {
 
 export function ClassCard({ name, slug, board, streamCount }: ClassCardProps) {
   return (
-    <Link href={`/${slug}`} className="group">
+    <Link href={`/${slug}`} className="group" prefetch={false}>
       <Card className="h-full hover:border-primary transition-colors cursor-pointer">
         <CardHeader className="text-center py-8">
           <CardTitle className="text-2xl group-hover:text-primary transition-colors">

@@ -11,24 +11,28 @@ export function Footer() {
           <Link
             href="/about"
             className="text-muted-foreground hover:text-foreground"
+            prefetch={false}
           >
             About
           </Link>
           <Link
             href="/contact"
             className="text-muted-foreground hover:text-foreground"
+            prefetch={false}
           >
             Contact
           </Link>
           <Link
             href="/privacy-policy"
             className="text-muted-foreground hover:text-foreground"
+            prefetch={false}
           >
             Privacy Policy
           </Link>
           <Link
             href="/terms-conditions"
             className="text-muted-foreground hover:text-foreground"
+            prefetch={false}
           >
             Terms & Conditions
           </Link>

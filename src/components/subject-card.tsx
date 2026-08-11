@@ -10,7 +10,7 @@ interface SubjectCardProps {
 
 export function SubjectCard({ name, slug, resourceCount, description }: SubjectCardProps) {
   return (
-    <Link href={`/${slug}`} className="group">
+    <Link href={`/${slug}`} className="group" prefetch={false}>
       <Card className="h-full hover:border-primary transition-colors cursor-pointer">
         <CardHeader className="py-6">
           <CardTitle className="text-lg group-hover:text-primary transition-colors">

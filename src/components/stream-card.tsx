@@ -9,7 +9,7 @@ interface StreamCardProps {
 
 export function StreamCard({ name, slug, subjectCount }: StreamCardProps) {
   return (
-    <Link href={`/${slug}`} className="group">
+    <Link href={`/${slug}`} className="group" prefetch={false}>
       <Card className="h-full hover:border-primary transition-colors cursor-pointer">
         <CardHeader className="text-center py-8">
           <CardTitle className="text-xl group-hover:text-primary transition-colors">

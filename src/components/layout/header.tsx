@@ -6,7 +6,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center mx-auto px-4">
         <div className="mr-4 flex">
-          <Link href="/" className="mr-6 flex items-center space-x-2">
+          <Link href="/" className="mr-6 flex items-center space-x-2" prefetch={false}>
             <span className="hidden font-bold sm:inline-block text-xl">
               PUC Notes
             </span>
@@ -15,24 +15,28 @@ export function Header() {
             <Link
               href="/10thkseebresources"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
+              prefetch={false}
             >
               10th
             </Link>
             <Link
               href="/1stpuckarnataka"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
+              prefetch={false}
             >
               1st PU
             </Link>
             <Link
               href="/2ndpuckarnataka"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
+              prefetch={false}
             >
               2nd PU
             </Link>
             <Link
               href="/kcet"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
+              prefetch={false}
             >
               KCET
             </Link>
@@ -43,7 +47,7 @@ export function Header() {
             {/* Search placeholder */}
           </div>
           <nav className="flex items-center">
-            <Link href="/about" className={buttonVariants({ variant: "outline" })}>
+            <Link href="/about" className={buttonVariants({ variant: "outline" })} prefetch={false}>
               About Us
             </Link>
           </nav>
