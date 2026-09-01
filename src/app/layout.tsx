@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   title: "PUC Notes & Solutions",
   description: "Notes and textbooks of KSEEB 10th and DPUE 1st & 2nd PUC",
   manifest: "/manifest.json",
+  verification: {
+    google: "5zGLnpbBMzj4Rl0u6G8fRAHxP4yyrnbeI1TEEpWjNQE",
+  },
   appleWebApp: {
     title: "PUC Notes",
     statusBarStyle: "default",
