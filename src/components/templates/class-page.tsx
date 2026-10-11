@@ -2,6 +2,7 @@ import { PageHeader } from "@/components/page-header";
 import { StreamCard } from "@/components/stream-card";
 import { SubjectCard } from "@/components/subject-card";
 import { SectionGrid } from "@/components/section-grid";
+import { ComingSoon } from "@/components/coming-soon";
 import {
   getStreamsByClass, getSubjectsByClass,
   getMetadata, getResources, buildBreadcrumbs,
@@ -19,13 +20,28 @@ export function ClassPage({ classData, slug }: ClassPageProps) {
   const streams = getStreamsByClass(classData.id);
   const subjects = getSubjectsByClass(classData.id);
 
+  const displayTitle = meta?.displayTitle || meta?.title || `${classData.name} Resources`;
+  const hasContent = streams.length > 0 || subjects.length > 0;
+
   return (
     <div className="container mx-auto px-4 py-8">
       <PageHeader
-        title={meta?.displayTitle || meta?.title || `${classData.name} Resources`}
+        title={displayTitle}
         description={meta?.description}
         breadcrumbs={breadcrumbs}
       />
+
+      {/* Coming Soon fallback when there are no streams or subjects */}
+      {!hasContent && (
+        <ComingSoon
+          title={displayTitle}
+          description={meta?.description || `We are currently preparing high-quality study material for ${classData.name}. Notes, question papers, and textbook solutions will be available here shortly!`}
+          category="Content Preparation"
+          estimatedLaunch="Coming Soon"
+          progress={40}
+          backLink={{ href: "/", label: "Back to Home" }}
+        />
+      )}
 
       {/* Streams Section */}
       {streams.length > 0 && (

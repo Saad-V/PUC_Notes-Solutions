@@ -9,6 +9,7 @@ import { StickyBottomAd } from "@/components/ads/sticky-bottom-ad";
 import { AnnouncementLightbox } from "@/components/announcement-lightbox";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -58,6 +59,7 @@ export default function RootLayout({
         <StickyBottomAd />
         <SpeedInsights />
         <Analytics />
+        <GoogleAnalytics />
         <script
           dangerouslySetInnerHTML={{
             __html: `
